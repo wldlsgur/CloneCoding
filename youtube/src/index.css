@@ -8,7 +8,8 @@ body,
   height: 100%;
 }
 button,
-button:focus {
+.icon button:focus {
+  background: none;
   border: none;
   cursor: pointer;
   outline: none;
