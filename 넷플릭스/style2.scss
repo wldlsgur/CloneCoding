@@ -1,0 +1,30 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.wrap{
+    height: 100%;
+}
+
+.header {
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+}
