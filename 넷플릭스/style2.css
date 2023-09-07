@@ -1,3 +1,9 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -22,8 +28,48 @@ div {
   height: 100%;
 }
 
-.header {
-  height: 80px;
+.banner {
+  height: 70em;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./header.jpg");
+}
+.banner > .header {
+  height: 8em;
+  margin: 0 17.4em 0 17.4em;
   display: flex;
   justify-content: space-between;
+}
+.banner > .header > .header__title {
+  transform: scaleY(1.5); /* 숫자는 원하는 대로 조정하세요 */
+  font-size: 3.8rem;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  color: rgb(229, 9, 20);
+  display: flex;
+  align-items: center;
+}
+.banner > .header > .language_login {
+  display: flex;
+  align-items: center;
+}
+.banner > .header > .language_login > .language i {
+  position: relative;
+  left: 1.6em;
+  top: 0.1em;
+  font-size: 2rem;
+  color: white;
+}
+.banner > .header > .language_login > .language > .language__list {
+  width: 12.6rem;
+  height: 3.2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.banner > .header > .language_login > .language > .language__list > option {
+  margin: 0 auto;
+}
+.banner > .header > .language_login > .login {
+  width: 7.4rem;
+  height: 3.2rem;
 }/*# sourceMappingURL=style2.css.map */
